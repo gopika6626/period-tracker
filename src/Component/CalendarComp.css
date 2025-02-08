@@ -1,0 +1,97 @@
+.logged-period {
+    background-color: rgb(231, 170, 214) !important;
+    color: white !important;
+    border-radius: 50%;
+  }
+  
+  .predicted-period {
+    background-color: rgb(220, 110, 217) !important;
+    color: white !important;
+    border-radius: 50%;
+  }
+ /* Positioning */
+.calendar-container {
+    position: absolute;
+    top: 70px;
+    left: 150px;
+  }
+  
+  /* Calendar Styles */
+  .react-calendar {
+    width: 1200px;
+    height:350px;
+    max-width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Change Header Background */
+  .react-calendar__navigation {
+
+    background:#A57881;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+  }
+  
+  /* Change the tile (day button) styles */
+  .react-calendar__tile {
+    padding: 10px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+  }
+  
+  /* Highlight Logged Period Dates */
+  .logged-period {
+    background: #ffcccb !important;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Highlight Predicted Period Dates */
+  .predicted-period {
+    background: #a1c4fd !important;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+  }
+  .predict-button {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+
+    top: 500px;
+    left: 650px;
+    width: 100%;
+  
+    max-width: 200px; 
+   
+    margin-top: 10px; 
+    background: linear-gradient(to right, #A57881, #e391b7);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  /* Hover Effect */
+  .predict-button:hover {
+    background: linear-gradient(to right, #bf658f, #e6c0e6);
+    transform: scale(1.05);
+  }
+  
+  /* Active (click) Effect */
+  .predict-button:active {
+    transform: scale(0.95);
+    background: #b92b6e;
+  }
+  

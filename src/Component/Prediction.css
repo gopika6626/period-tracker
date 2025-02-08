@@ -1,0 +1,35 @@
+.ellipsea {
+    width: 313px; /* Adjust size as needed */
+    height: 313px;
+    position: absolute;
+    top: 430px;
+    left: 150px;
+    background-color: #A57881; /* Circle color */
+    border-radius: 50%; /* Makes it a circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Hover Effect */
+  .ellipsea:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Inner content (if needed) */
+  .ellipsea div {
+    width: 83%;
+    height: 83%;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .days-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(16, 6, 6);
+    text-align: center;
+    background: none;
+  }

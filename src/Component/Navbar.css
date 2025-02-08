@@ -1,0 +1,29 @@
+.title{
+    color: #A57881;
+    font-family: Quicksand;
+    font-size: 35.392px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position:absolute;
+    margin:2%;
+    top:0;
+
+}
+.iconimg{
+    position:absolute;
+    top:650px;
+    margin-left: 1350px;
+
+}
+.graphimage{
+
+    position: absolute;
+    top:650px;
+    margin-left: 1270px;
+}
+.forumimage{
+    position:absolute;
+    top:650px;
+    margin-left: 1185px;
+}
