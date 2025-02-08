@@ -2,7 +2,7 @@ import React from "react";
 import CalendarComponent from "../src/Component/CalenderComp"
 import Prediction from "../src/Component/Prediction";
 import Navbar from "../src/Component/Navbar";
-import Stats from "../src/Component/Stats";
+import Stats from "./Component/Statistics";
 
 function App() {
   return (
@@ -12,6 +12,10 @@ function App() {
       <Prediction />
       <Navbar />
       <Stats />
+     
+      
+ 
+   
      
     </div>
   );

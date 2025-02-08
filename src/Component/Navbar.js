@@ -14,7 +14,7 @@ const Navbar = () => {
         <img className='iconimg' src={Chat} alt="icon" />
         
         <img 
-          className='graphimage' 
+          className='graphimage' id = "stats"
           src={Graph} 
           alt="graph"
           
