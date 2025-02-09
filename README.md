@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# Luna - Period Tracker Website 🎯
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Basic Details
 
-## Available Scripts
+### Team Name: CodeClan
 
-In the project directory, you can run:
+### Team Members:
 
-### `npm start`
+Member 1: Adithya Ramesh - LBSITW Poojapura TVPM
+Member 2: Gopika R- LBSITW Poojapura TVPM
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Hosted Project Link:https:[LUNA](//github.com/gopika6626/period-tracker.git)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Project Description
+Luna is a smart period tracker website designed to help women log and predict their menstrual cycles. It provides features like an interactive calendar, AI-powered emotional support, an anonymous forum, and detailed cycle analytics.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## The Problem Statement
+Managing menstrual health can be overwhelming without proper tracking. Many existing apps lack privacy, emotional support, and data-driven insights. Women need a comprehensive solution for both physical and emotional well-being.
 
-### `npm run build`
+## The Solution
+Luna is more than just a tracker!
+We combine AI with data analytics to predict cycles accurately, offer emotional support through an AI chatbot, and create a safe, anonymous community for women. It's your health companion, not just a calendar!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technical Details
+### Software:
+Languages Used: JavaScript, Python, HTML, CSS
+Frameworks Used: React.js (Frontend), Flask (Backend)
+Libraries Used: ARIMA (for period prediction), LLaMA Model API (for AI chatbot), Chart.js (for statistical graphs)
+Tools Used: VS Code, GitHub, Postman
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Implementation
+💻 For Software:
+Installation:
 
-### `npm run eject`
+Clone the repository:
+```
+git clone [LUNA](//github.com/gopika6626/period-tracker.git)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+cd luna-period-tracker
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install dependencies for the frontend:
+```
+cd frontend
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install dependencies for the backend:
+```
+cd backend
+pip install -r requirements.txt
+```
 
-## Learn More
+Run:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Start the frontend:
+```
+npm start
+```
+Run the Flask API:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+python app.py
+```
 
-### Code Splitting
+## Project Documentation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Screenshots:
 
-### Analyzing the Bundle Size
+![Dashboard]
+Caption: Luna’s Dashboard showing calendar view with period logs and countdowns.
+![AI Chatbot]
+Caption: AI-powered emotional support chatbot for mental well-being.
+![Analytics]
+Caption: Cycle analytics graph with monthly trends and irregularity detection.
+Diagrams:
+![Workflow](not integrated)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Team Contributions
+Gopika: UI Design, Frontend Development,Flask API Integration, ARIMA Model training
+Adithya Ramesh: Backend Development with Flask, ARIMA Model for Period Prediction,Statistical Analytics
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+
+
+
+Search
+
+Reason
+
