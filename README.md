@@ -25,9 +25,12 @@ We combine AI with data analytics to predict cycles accurately, offer emotional 
 ## Technical Details
 ### Software:
 Languages Used: JavaScript, Python, HTML, CSS
+
 Frameworks Used: React.js (Frontend), Flask (Backend)
-Libraries Used: ARIMA (for period prediction), LLaMA Model API (for AI chatbot), Chart.js (for statistical graphs)
-Tools Used: VS Code, GitHub, Postman
+
+Libraries Used: ARIMA (for period prediction), LLaMA Model API (for AI chatbot), Rechart.js (for statistical graphs)
+
+Tools Used: VS Code, GitHub, Vercel(deployed)
 
 
 Implementation
@@ -70,21 +73,18 @@ python app.py
 
 Screenshots:
 
-![Dashboard]
-Caption: Luna’s Dashboard showing calendar view with period logs and countdowns.
-![AI Chatbot]
-Caption: AI-powered emotional support chatbot for mental well-being.
-![Analytics]
+![images](https://github.com/gopika6626/period-tracker/commit/228f905dcec70cf79688d031143e06f550e94044)
+ Luna’s Dashboard showing calendar view with period logs and countdowns.
+ 
+ ![Analytics]
 Caption: Cycle analytics graph with monthly trends and irregularity detection.
-Diagrams:
-![Workflow](not integrated)
 
 
 
 
-
-Team Contributions
+## Team Contributions
 Gopika: UI Design, Frontend Development,Flask API Integration, ARIMA Model training
+
 Adithya Ramesh: Backend Development with Flask, ARIMA Model for Period Prediction,Statistical Analytics
 
 
